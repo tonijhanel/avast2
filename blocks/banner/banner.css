@@ -1,6 +1,5 @@
 div.banner.block{
     max-width: 100%;
-    
     background-color: #F7FAFC;
 }
 
@@ -11,8 +10,8 @@ div.banner-wrapper{
     background-color: #F7FAFC;
     border-top: 1px solid rgb(197,214,224);
     text-align: center;
-    padding-bottom: 5em;
-  
+    padding-bottom: 3em;
+    font-family: "MierB03", "Helvetica", "Arial", sans-serif;
 }
 
 
@@ -21,4 +20,35 @@ div.banner-wrapper{
 div.banner-wrapper > div > div.content.subText > div > div{
     font-size: 1.125rem;
     line-height: 1.875rem;
+}
+
+div.banner-wrapper > div > div.content.subText > div > div > a{
+    text-decoration:underline;
+text-decoration-style: dotted;
+color: #000;
+}
+
+div.banner-wrapper > div > div.content.subText > div > div > h4> a{
+ 
+color: white;
+background-color: #0070F6;
+border-radius: 25px;
+padding: 0.65em 1.50em 0.65em 1.50em;
+font-size: 0.75em;
+font-family: "MierB03", "Helvetica", "Arial", sans-serif;
+text-decoration: none;
+}
+
+div.banner-wrapper > div > div.content.subText > div > div > h5 {
+    padding-top: 1em;
+    font-size: 16px;
+    font-weight: normal;
+    
+}
+
+div.banner-wrapper > div > div.content.subText > div > div > h5 > a{
+    color: #000;
+    text-decoration: underline;
+    text-decoration-style:solid;
+    font-weight: bold;
 }

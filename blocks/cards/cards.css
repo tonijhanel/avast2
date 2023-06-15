@@ -2,18 +2,24 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 16px;
+  display: flex;
+  flex-flow: wrap;
+  border: 1px solid #FFDDBF;
+  background-color: #FFF1E5;
+  border-radius: 25px;
+  margin-top: calc(-1 * var(--bs-gutter-y)); 
+  margin-right: calc(-.5 * var(--bs-gutter-x)); 
+  margin-left: calc(-.5 * var(--bs-gutter-x));
 }
 
 .cards > ul > li {
-  border: 1px solid var(--highlight-background-color);
-  background-color: var(--background-color)
+ width: 25%;
 }
 
 .cards .cards-card-body {
-  margin: 16px;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
 }
 
 .cards .cards-card-image {

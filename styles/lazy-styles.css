@@ -1,1 +1,8 @@
 /* below the fold CSS goes here */
+@font-face {
+    font-display: block;
+    font-family: MierB03;
+   font-style: normal;
+    font-weight: 400;
+    src:      url(./fonts/MierB03-SubsetEng-Regular.woff) format("woff");
+  }

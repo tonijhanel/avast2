@@ -64,7 +64,7 @@ body {
 }
 
 body.appear {
-  display: unset;
+display: unset;
 }
 
 header {
@@ -221,7 +221,7 @@ main img {
 }
 
 main .section {
-  padding: 64px 16px;
+ /* padding: 64px 16px;*/
 }
 
 @media (min-width: 600px) {

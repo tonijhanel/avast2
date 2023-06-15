@@ -1,0 +1,24 @@
+div.banner.block{
+    max-width: 100%;
+    
+    background-color: #F7FAFC;
+}
+
+div.banner-wrapper{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #F7FAFC;
+    border-top: 1px solid rgb(197,214,224);
+    text-align: center;
+    padding-bottom: 5em;
+  
+}
+
+
+
+
+div.banner-wrapper > div > div.content.subText > div > div{
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+}

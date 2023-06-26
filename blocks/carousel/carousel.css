@@ -83,6 +83,7 @@ main .carousel-container {
     margin: 40px 0 0 0;
     
   }
+  /*
   main .carousel div.carousel-text p>a {
     background-color: #0070F6;
     font-weight: 750;
@@ -92,42 +93,59 @@ main .carousel-container {
     line-height: 1.25rem;
     border-radius: 30px;
     
-  }
-  
-  main .carousel div.carousel-text h3{
-   
-    background-repeat: no-repeat;
-    background-position: 8% center;
+  }*/
+  main > div.section.carousel-container > div > div.carousel.block > div> div.carousel-text > p > a.button.primary{
+    background-image: url("/icons/Windows_icon_logo.png") ;
+    background-position: left center;
+    /*
     background-color: #0070F6;
-    padding: 0px 15px 13px 13px;
+    padding: 15px 15px 13px 13px;
     letter-spacing: 1px;
     line-height: 1.25rem;
     border-radius: 30px;
     color: #fff;
     display: inline;
-    background-size: 27px;
+    font-size: 1rem;*/
     border: 1px #0070F6 solid;
     text-decoration: none;
-   
+    width: 100%;
+  }
+  /*
+  main .carousel div.carousel-text  p>a{
+    background-image: url('//icons/Windows_icon_logo.png') no-repeat;
+    background-position: left center;
+    background-color: #0070F6;
+    padding: 15px 15px 13px 13px;
+    letter-spacing: 1px;
+    line-height: 1.25rem;
+    border-radius: 30px;
+    color: #fff;
+    display: inline;
+    font-size: 1rem;
+    border: 1px #0070F6 solid;
+    text-decoration: none;
+    width: 100px;
+    
+  
   }
 
-  main .carousel div.carousel-text h3::before{
-content: url( '\\icons/Windows_icon_logo.png');
-
-  }
+    /*
   
   main .carousel div.carousel-text h3:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
   
   }
+
   main .carousel div.carousel-text h3>a{
+  
     padding-left: 35px;
     font-weight: 750;
     color: #fff;
     font-size: 1rem;
     padding-top: -20px;
+
   }
-  
+    
   
   main .carousel div.carousel-text h3>a:hover{
   
@@ -135,13 +153,13 @@ content: url( '\\icons/Windows_icon_logo.png');
     font-size: 1rem;
     text-decoration: none;
    
-  }
+  }  
   main .carousel div.carousel-text p>a:hover{
    border: 3px  solid #0070F6;
   
    box-shadow: 0px 12px 32px -16px rgba(0,112,246,0.4),0px 24px 32px -16px rgba(7,29,43,0.4);
   }
-  
+  */
   main .carousel::-webkit-scrollbar {
       display: none;
     }

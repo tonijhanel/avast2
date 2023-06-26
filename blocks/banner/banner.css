@@ -14,19 +14,62 @@ div.banner-wrapper{
     font-family: "MierB03", "Helvetica", "Arial", sans-serif;
 }
 
+div.banner-wrapper > div > div.content.subText > div > div > a{
+    text-decoration:underline;
+text-decoration-style: dotted;
+color: #000;
+}
 
+div.banner-wrapper > div > div.content.subText > div > div{
+    padding: 25px;
+}
 
+main > div.section.banner-container > div > div > div.content.subText >  div:nth-child(3) > div h4{
+    display: inline;
+}
 
 div.banner-wrapper > div > div.content.subText > div > div{
     font-size: 1.125rem;
     line-height: 1.875rem;
 }
 
-div.banner-wrapper > div > div.content.subText > div > div > a{
-    text-decoration:underline;
-text-decoration-style: dotted;
-color: #000;
+main > div.section.banner-container > div > div > div.content.subText >  div:nth-child(3) > div h4 {
+    
+    border-radius: 35px;
+    padding: 1.25em 1.25em 1.25em 1.25em;
+    font-size: 20px;
+    font-family: "MierB03", "Helvetica", "Arial", sans-serif;
+    background: #0d6efd url('/icons/Windows_icon_logo.png') no-repeat left center;
+    background-size: 35px 35px;
+    background-origin: content-box;
 }
+
+main > div.section.banner-container > div > div > div.content.subText >  div:nth-child(3) > div > h4 > em{
+    
+    border-radius: 35px;
+    padding: 1.25em 1.25em 1.25em 1.25em;
+    font-size: 20px;
+    font-family: "MierB03", "Helvetica", "Arial", sans-serif;
+  background-color: #FFBF00;
+    background-size: 35px 35px;
+    background-origin: content-box;
+}
+
+main > div.section.banner-container > div > div > div.content.subText >  div:nth-child(3) > div h4 a{
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+main > div.section.banner-container > div > div > div.content.subText >  div:nth-child(3) > div h4:hover{
+    box-shadow: 0px 8px 32px -16px rgba(0,112,246,0.32),0px 16px 32px -16px rgba(7,29,43,0.32);
+}
+/*
+
+background: url('\icons\Windows_icon_logo.png') no-repeat;
+
+
+
 
 div.banner-wrapper > div > div.content.subText > div > div > h4> a{
  
@@ -37,6 +80,23 @@ padding: 0.65em 1.50em 0.65em 1.50em;
 font-size: 0.75em;
 font-family: "MierB03", "Helvetica", "Arial", sans-serif;
 text-decoration: none;
+}
+
+.main > div.section.banner-container > div > div > div.content.subText > div  {
+   display: inline;
+   background-color: antiquewhite;
+}
+
+
+div.banner-wrapper > div > div.content.subText > div > div > h4> em > a{
+background-color: #FFBF00;
+color: #071D2B;
+border-radius: 25px;
+padding: 0.65em 1.50em 0.65em 1.50em;
+font-size: 0.75em;
+font-family: "MierB03", "Helvetica", "Arial", sans-serif;
+text-decoration: none;
+font-style: normal;
 }
 
 div.banner-wrapper > div > div.content.subText > div > div > h5 {
@@ -52,3 +112,4 @@ div.banner-wrapper > div > div.content.subText > div > div > h5 > a{
     text-decoration-style:solid;
     font-weight: bold;
 }
+*/

@@ -92,20 +92,7 @@ div.section.featurecards-container > div > div > ul > a > li > div.cards-card-im
    
        max-width: 200px;
   }
-/*
-  div.section.featurecards-container > div > div > ul > a > li > div.cards-card-body > p.button-container > a{
-    background-color: white;
-    color: rgb(0,112,246);
-    font-size: 16px;
-       padding: 25px;
- 
-  }
 
-  div.section.featurecards-container > div > div > ul > a > li > div.cards-card-body > p.button-container > a:hover{
-    background-color: rgb(0,112,246);
-    color: white;
-  }
-  */
   div.cards-card-body > p > a{
     border: 3px solid #0070F6;
     display: inline;

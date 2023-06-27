@@ -77,18 +77,7 @@ main > div.section.banner-container > div > div > div.content.subText > div:nth-
     text-decoration: none;
     transform: scale(1.1); 
 }
-/*
-main > div.section.banner-container > div > div > div.content.subText > div:nth-child(3) > div> h4.premiumBtn em{
-    font-style: normal;
-    color: #000;
-}
 
-main > div.section.banner-container > div > div > div.content.subText >  div:nth-child(3) > div h4 a{
-    color: white;
-    text-decoration: none;
-   
-}
-*/
 main > div.section.banner-container > div > div > div.content.subText >  div:nth-child(3) > div h4:hover{
     box-shadow: 0px 8px 32px -16px rgba(0,112,246,0.32),0px 16px 32px -16px rgba(7,29,43,0.32);
 }

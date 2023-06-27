@@ -1,0 +1,15 @@
+div.section.heading-container{
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+div.section.heading-container > div{
+    width: 100%;
+    text-align: center;
+}
+
+div.section.heading-container  div  h3{
+    font-family: "MierB03", "Helvetica", "Arial", sans-serif;
+    font-size: 46px;
+    color: #071D2B;
+}

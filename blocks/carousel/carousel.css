@@ -236,3 +236,20 @@ main .carousel-container {
     border: 2px solid currentcolor;
     color: var(--text-color)
   }
+
+div.carousel-text > p > a{
+    text-decoration: none;
+    border-radius: 35px;
+    padding: .75em 2.25em .75em 3.25em;
+    font-size: 20px;
+    font-family: "MierB03", "Helvetica", "Arial", sans-serif;
+    background: #0d6efd url('/icons/Windows_icon_logo.png') no-repeat left;
+    background-size: 35px 35px;
+    background-position: left 25px top 50%;
+    color: #fff;
+    font-weight: bold;
+  }
+div.carousel-text > p > a:hover{
+    box-shadow: 0px 8px 32px -16px rgba(0,112,246,0.32),0px 16px 32px -16px rgba(7,29,43,0.32);
+  }
+  

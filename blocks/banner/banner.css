@@ -33,36 +33,79 @@ div.banner-wrapper > div > div.content.subText > div > div{
     line-height: 1.875rem;
 }
 
-main > div.section.banner-container > div > div > div.content.subText >  div:nth-child(3) > div h4 {
-    
+main > div.section.banner-container > div > div > div.content.subText > div:nth-child(3) > div> h4.bannerBtn{
+ 
     border-radius: 35px;
-    padding: 1.25em 1.25em 1.25em 1.25em;
+    padding: 1.25em 2.25em 1.25em 3.25em;
     font-size: 20px;
     font-family: "MierB03", "Helvetica", "Arial", sans-serif;
-    background: #0d6efd url('/icons/Windows_icon_logo.png') no-repeat left center;
+    background: #0d6efd url('/icons/Windows_icon_logo.png') no-repeat left;
     background-size: 35px 35px;
-    background-origin: content-box;
+    background-position: left 25px top 50%;
 }
 
-main > div.section.banner-container > div > div > div.content.subText >  div:nth-child(3) > div > h4 > em{
+main > div.section.banner-container > div > div > div.content.subText > div:nth-child(3) > div> h4.bannerBtn a{
+    color: #ffffff;
+}
+
+main > div.section.banner-container > div > div > div.content.subText > div:nth-child(3) > div> h4.bannerBtn a:hover{
+    text-decoration: none;
+}
+
+main > div.section.banner-container > div > div > div.content.subText > div:nth-child(3) > div> h4.premiumBtn{
     
     border-radius: 35px;
     padding: 1.25em 1.25em 1.25em 1.25em;
     font-size: 20px;
     font-family: "MierB03", "Helvetica", "Arial", sans-serif;
-  background-color: #FFBF00;
-    background-size: 35px 35px;
-    background-origin: content-box;
+ /* background-color: #FFBF00;*/
+  background: linear-gradient(to bottom right, #FFBF00 0%, #FFBF00 50%, #FF7800 100%); 
+  padding: 1.25em 2.25em;
+  color: #000;
+  transition: all .2s ease-in-out; 
+
+}
+
+main > div.section.banner-container > div > div > div.content.subText > div:nth-child(3) > div> h4.premiumBtn a{
+    
+    font-style: normal;
+    color: #000;
+    font-weight: bold;
+}
+
+main > div.section.banner-container > div > div > div.content.subText > div:nth-child(3) > div> h4.premiumBtn a:hover{
+    text-decoration: none;
+    transform: scale(1.1); 
+}
+/*
+main > div.section.banner-container > div > div > div.content.subText > div:nth-child(3) > div> h4.premiumBtn em{
+    font-style: normal;
+    color: #000;
 }
 
 main > div.section.banner-container > div > div > div.content.subText >  div:nth-child(3) > div h4 a{
     color: white;
     text-decoration: none;
-    padding-left: 50px;
+   
 }
-
+*/
 main > div.section.banner-container > div > div > div.content.subText >  div:nth-child(3) > div h4:hover{
     box-shadow: 0px 8px 32px -16px rgba(0,112,246,0.32),0px 16px 32px -16px rgba(7,29,43,0.32);
+}
+
+
+div.banner-wrapper > div > div.content.subText > div > div > h5 {
+    padding-top: 1em;
+    font-size: 16px;
+    font-weight: normal;
+    
+}
+
+div.banner-wrapper > div > div.content.subText > div > div > h5 > a{
+    color: #000;
+    text-decoration: underline;
+    text-decoration-style:solid;
+    font-weight: bold;
 }
 /*
 
@@ -99,17 +142,5 @@ text-decoration: none;
 font-style: normal;
 }
 
-div.banner-wrapper > div > div.content.subText > div > div > h5 {
-    padding-top: 1em;
-    font-size: 16px;
-    font-weight: normal;
-    
-}
 
-div.banner-wrapper > div > div.content.subText > div > div > h5 > a{
-    color: #000;
-    text-decoration: underline;
-    text-decoration-style:solid;
-    font-weight: bold;
-}
 */

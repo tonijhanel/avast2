@@ -108,11 +108,7 @@ div.section.featurecards-container > div > div > ul > a > li > div.cards-card-im
     background-color: #0070F6;
     color: white;
   }
-  /*
-  .featurecards .cards-card-body > *:first-child {
-    margin-top: 0;
-  }
-  
+
   .featurecards > ul > li img {
     width: 100%;
     aspect-ratio: 4 / 3;
